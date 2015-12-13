@@ -22,7 +22,8 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
 	position: absolute;
 	background: rgba(21,8,43,0.2);
 }
-.eursoft .eursoft-logo{
+
+.eursoft .eursoft-logo svg{
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -33,5 +34,18 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
 	width: calc(90% - 12rem);
 	height: calc(100% - 12rem);
 	margin: 0 auto;
-	background: url("../img/logo_darkbg.svg") no-repeat 50% 50%/contain;
+}
+
+#eursoft{
+	fill: #EFEFEF;
+}
+
+#eursoft:hover{
+	fill: #4D5961;
+}
+
+
+
+#logo:hover ~ #eursoft{
+	fill: #4D5961;
 }
